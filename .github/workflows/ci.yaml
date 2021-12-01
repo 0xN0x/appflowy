@@ -13,7 +13,7 @@ jobs:
       - name: Env install
         working-directory: frontend
         run: make install_rust
-      - name: Checkou Flutter
+      - name: Checkout Flutter
         uses: actions/checkout@v2
         with:
           repository: flutter/flutter
